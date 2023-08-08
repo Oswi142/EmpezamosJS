@@ -20,7 +20,7 @@ form.addEventListener("submit", (event) => {
   div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
 });
 
-form.addEventListener("submit", (event) => {
+formMult.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const thirdNumber = Number.parseInt(third.value);
